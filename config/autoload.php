@@ -8,7 +8,7 @@
 	define("host", "localhost");
 	define("user", "root");
 	define("pass", "");
-	define("dbname", "db_project");
+	define("dbname", "db_myapp");
 	$DATABASE = new Database(host, user, pass, dbname);		// ตัวแปรสำหรับการเชือมต่อข้อมูลในฐานข้อมูล
 
 	// include_once("class.push.php");							// ดึง class สำหรับการส่งแจ้งเตือน
