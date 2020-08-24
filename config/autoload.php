@@ -6,9 +6,9 @@
 
 	include_once("class.database.php");						// ดึง class สำหรับการติดต่อฐานข้อมูล
 	define("host", "localhost");
-	define("user", "root");
-	define("pass", "");
-	define("dbname", "db_myapp");
+	define("user", "406068045_db");
+	define("pass", "0807957899");
+	define("dbname", "406068045_db");
 	$DATABASE = new Database(host, user, pass, dbname);		// ตัวแปรสำหรับการเชือมต่อข้อมูลในฐานข้อมูล
 
 	// include_once("class.push.php");							// ดึง class สำหรับการส่งแจ้งเตือน
